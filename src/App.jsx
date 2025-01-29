@@ -31,7 +31,7 @@ function App() {
 
 
   // map position
-  const mPosition = [51.505, -0.08];
+  const mPosition = [25.03418922, 121.4506683];
 
 
   // Chart options
@@ -145,22 +145,7 @@ function App() {
                       plugins={plugins}
                     />
                   </div>
-                  <div className="flex justify-between mt-2">
-                    <span className="text-xs">0</span>
-                    <span className="text-xs">20</span>
-                    <span className="text-xs">40</span>
-                    <span className="text-xs">60</span>
-                    <span className="text-xs">80</span>
-                    <span className="text-xs">100</span>
-                    <span className="text-xs">120</span>
-                  </div>
-                  <div className="flex justify-between mt-1">
-                    <span className="text-xs">12/11</span>
-                    <span className="text-xs">12/14</span>
-                    <span className="text-xs">12/17</span>
-                    <span className="text-xs">12/20</span>
-                    <span className="text-xs">12/23</span>
-                  </div>
+                  
                 </div>
 
                 <div className="mt-4">
